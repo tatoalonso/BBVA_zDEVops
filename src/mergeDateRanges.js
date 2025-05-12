@@ -1,5 +1,4 @@
-
-function mergeDateRanges(ranges) {
+export function mergeDateRanges(ranges) {
     if (!Array.isArray(ranges)) {
       throw new TypeError('Se esperaba un array de rangos');
     }
@@ -54,11 +53,10 @@ function mergeDateRanges(ranges) {
     }
     merged.push(current);
   
-    //Volver a ISO-Z
+    // convierte tus objetos Date en strings ISO
     return merged.map(({ start, end }) => [
       start.toISOString(),
       end.toISOString()
     ]);
   }
   
-  module.exports = {mergeDateRanges};
