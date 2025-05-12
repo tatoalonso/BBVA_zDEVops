@@ -1,13 +1,5 @@
 # BBVA_zDEVops
 
-PARTE 1 
--------
-
-- Se crea la función mergeDateRanges, que asume que recibe un array de rangos de fecha en formato UTC con el fin de no mezclar distintos tipos de fechas en el mismo rango
-
-- Para probar la funcionalidad , hay que descargar el código de la tag v1.1.0-part1 y ejecutar el comando node text.js
-
-
 PARTE 2
 -------
 
