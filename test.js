@@ -1,4 +1,4 @@
-const lib = require ('./mergeDateRanges')
+const lib = require ('./src/mergeDateRanges')
 
 
 // Ejemplo correcto 

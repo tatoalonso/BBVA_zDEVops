@@ -1,0 +1,23 @@
+{
+  "name": "bbva",
+  "version": "1.0.0",
+  "description": "bbva_zdevops",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatoalonso/BBVA_zDEVops.git"
+  },
+  "author": "angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatoalonso/BBVA_zDEVops/issues"
+  },
+  "homepage": "https://github.com/tatoalonso/BBVA_zDEVops#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
